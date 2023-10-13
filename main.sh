@@ -5,8 +5,8 @@
 echo "Pilih OS yang ingin anda install"
 echo "	1) Windows 2019(Default)"
 echo "	2) Windows 2016"
-echo "	3) Windows 2012"
-echo "	4) Windows 10"
+echo "	3) GHOST"
+echo "	4) Windows 2019-2"
 echo "	5) Pakai link gz mu sendiri"
 
 read -p "Pilih [1]: " PILIHOS
@@ -14,8 +14,8 @@ read -p "Pilih [1]: " PILIHOS
 case "$PILIHOS" in
 	1|"") PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
 	2) PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
-	3) PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
-	4) PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
+	3) PILIHOS="https://files.meocloud.my.id/12:/winghost10cp.gz";;
+	4) PILIHOS="https://www.dropbox.com/scl/fi/w4r98wc8dsmn13jgo7we4/windows2019.gz?rlkey=tb7nwjiv8l9344dfqsdd9zttz&dl=0";;
 	5) read -p "Masukkan Link GZ mu : " PILIHOS;;
 	*) echo "pilihan salah"; exit;;
 esac
