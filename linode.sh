@@ -15,7 +15,7 @@ case "$PILIHOS" in
 	1|"") PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
 	2) PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
 	3) PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
-	4) PILIHOS="https://pub-96a3141a1f5b4b3ca15bbd7b03ad1f25.r2.dev/windows2019.gz";;
+	4) PILIHOS="https://5672-8-222-233-77.ngrok-free.app/iso/windows2019.gz";;
 	5) read -p "Masukkan Link GZ mu : " PILIHOS;;
 	*) echo "pilihan salah"; exit;;
 esac
